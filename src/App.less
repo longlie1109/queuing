@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import "~antd/dist/antd.less";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+.ant-menu-vertical > .ant-menu-item {
+  height: 48px;
+  line-height: 48px;
+}
+
+.ant-menu-item {
+  display: flex;
+  align-items: center;
+}
+
+.ant-menu-item-selected,
+.ant-menu-item-selected a {
+  color: #ffffff !important;
+}
+
+.ant-menu-submenu-selected {
+  background-color: #ff7506 !important;
+  color: #ffffff !important;
+}
+
+.ant-menu-item-active,
+.ant-menu-submenu-active {
+  color: #ff7506;
+  background-color: #fff2e7;
+}
+
+.ant-menu-submenu-title {
+  display: flex;
+  align-items: center;
+}
+
+.ant-menu-vertical > .ant-menu-submenu > .ant-menu-submenu-title {
+  height: 48px;
+  line-height: 48px;
+}
+
+.ant-menu-submenu-expand-icon,
+.ant-menu-submenu-arrow {
+  color: inherit;
+}
+
+.ant-table-thead tr .ant-table-cell {
+  font-size: 16px;
+}
+
+.ant-table-tbody tr:nth-child(even) {
+  background-color: #fff2e7;
+}
+
+.ant-list-header {
+  padding: 0 !important;
+}
+
+.ant-badge-status-dot {
+  width: 8px;
+  height: 8px;
+}
+
+.ant-progress-inner {
+  width: 60px !important;
+  height: 60px !important;
+  font-size: 14px !important;
+  font-weight: 700;
+}
+
+.ant-picker-content {
+  height: 100px !important;
+}
+.ant-picker-content th {
+  color: #ff7506 !important;
+}
+
+.ant-modal-content {
+  border-radius: 24px;
+}
+
+.ant-modal-footer {
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
+}
+
+.ant-modal-close-x {
+  color: #ff7506;
+}
+
+.ant-breadcrumb-link {
+  font-weight: 700;
+}
+
+.ant-pagination-item a {
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 600;
+  color: #7e7d88;
+}
+
+.ant-pagination-item-active a {
+  font-weight: 700;
+  color: #fff;
+}
+
+.ant-popover-title {
+  padding: 0px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.ant-popover-inner {
+  border-radius: 10px;
+}
+
+.ant-popover-inner-content {
+  padding: 0;
+}
+
+.Calendar__day.-ltr.-selectedStart {
+  border-radius: 8px !important;
+}
+
+.Calendar__day.-ltr.-selectedEnd {
+  border-radius: 8px !important;
+}
+
+.Calendar__day.-selected {
+  border-radius: 8px !important;
+}
+
+.Calendar__weekDays {
+  color: #ff9138 !important;
+  font-weight: 700;
+  font-size: 14px !important;
+  line-height: 19px;
+}
+
+.Calendar__monthText,
+.Calendar__yearText {
+  color: #ff7506;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.Calendar__monthArrow {
+  color: #ff7506;
+}
+
+.Calendar__header {
+  font-size: 10px;
+  position: relative;
+}
+
+.Calendar__header::after {
+  content: "";
+  width: 80%;
+  height: 1px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 8px;
+  background-color: #dcddfd;
+}

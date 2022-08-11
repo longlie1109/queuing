@@ -1,0 +1,43 @@
+.section {
+  margin: 16px 0 20px 24px;
+  &.section2 {
+    margin: 16px 63px 20px 24px;
+  }
+  .title {
+    color: #ff7506 !important;
+    font-size: 24px !important;
+    &.title2 {
+      font-size: 20px !important;
+    }
+  }
+  .inputContainer {
+    margin-right: 100px;
+    .selectContianer {
+      width: 300px;
+    }
+  }
+  .link,
+  .link:hover {
+    color: #4277ff;
+    font-size: 14px;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .label {
+    font-weight: 600;
+    font-size: 16px;
+  }
+  .itemContainer {
+    margin-bottom: 16px;
+    .text {
+      font-size: 16px;
+    }
+  }
+  .buttonContainer {
+    margin-top: 24px;
+    .button {
+      height: 48px;
+      width: 147px;
+    }
+  }
+}

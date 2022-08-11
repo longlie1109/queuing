@@ -1,0 +1,62 @@
+.section {
+  margin: 16px 0 20px 24px;
+  &.section2 {
+    margin: 16px 63px 20px 24px;
+  }
+  .title {
+    color: #ff7506 !important;
+    font-size: 24px !important;
+    &.title2 {
+      font-size: 20px !important;
+      margin-bottom: 12px;
+    }
+  }
+  .card {
+    height: 550px;
+    .itemWrapper {
+      margin-bottom: 4px;
+    }
+  }
+  .providerInput {
+    height: 44px;
+    width: 60px;
+    border-radius: 8px;
+  }
+  .itemContainer {
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    .text {
+      font-size: 16px;
+    }
+  }
+  .label {
+    font-weight: 600;
+    font-size: 16px;
+  }
+  .inputContainer {
+    margin-right: 100px;
+    .selectContianer {
+      width: 300px;
+    }
+  }
+  .inputContainer2 {
+    .selectContianer {
+      width: 150px;
+    }
+  }
+  .link,
+  .link:hover {
+    color: #4277ff;
+    font-size: 14px;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .buttonContainer {
+    margin-top: 24px;
+    .button {
+      height: 48px;
+      width: 147px;
+    }
+  }
+}

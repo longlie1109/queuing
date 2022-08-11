@@ -1,0 +1,48 @@
+.cardContainer {
+  box-shadow: 2px 2px 15px 0 rgba(70, 64, 67, 0.1);
+  .text {
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 700;
+  }
+  .number {
+    font-size: 30px;
+    line-height: 36px;
+    line-height: 45px;
+    font-weight: 700;
+    margin-bottom: 0;
+  }
+  .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 48px;
+    width: 48px;
+    font-size: 24px;
+    border-radius: 50%;
+  }
+  .tag {
+    border-radius: 7px;
+    font-size: 8px;
+    font-weight: 400;
+    height: 15px;
+    line-height: 15px;
+    width: 48px;
+    margin-right: 0;
+  }
+}
+.cardContainerSidebar {
+  margin-bottom: 12px;
+  box-shadow: 2px 2px 15px 0 rgba(70, 64, 67, 0.1);
+  .number {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 800;
+    margin-bottom: 0;
+  }
+  .chartCircle {
+    height: 60px;
+    width: 60px;
+    margin-right: 12px;
+  }
+}

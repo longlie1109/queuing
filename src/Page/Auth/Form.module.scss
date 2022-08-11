@@ -1,0 +1,36 @@
+.form {
+  text-align: center;
+  .title {
+    font-size: 22px;
+    margin-bottom: 12px;
+  }
+  .warningWrapper {
+    position: relative;
+    .warningContainer {
+      position: absolute;
+      color: #e73f3f;
+      top: 12px;
+      .warningText {
+        color: #e73f3f;
+        font-size: 14px;
+        margin-left: 6px;
+      }
+    }
+  }
+}
+.buttonContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 48px;
+  .btn {
+    width: 160px;
+    height: 40px;
+  }
+  .link {
+    font-size: 14px;
+    margin-top: 8px;
+    color: #e73f3f;
+  }
+}
